@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#006c3c">
+  <link rel="icon" href="assets/img/logo.png">
+  <title>Munnar Dream Hub | Explore Munnar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Caveat:wght@500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem("munnar-surprise-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); } catch (error) { document.documentElement.dataset.theme = "light"; }</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Munnar Dream Hub home"><img src="assets/img/logo.png"
+        alt="Munnar Dream Hub"></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a><a href="#experiences">Experience</a><a href="#packages">Packages</a><a
+        href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions"><button class="theme-toggle" type="button" data-theme-toggle
+        aria-label="Switch to dark mode" aria-pressed="false"></button><a class="whatsapp top-wa"
+        href="https://wa.me/916369514948" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><span>Book
+          Now</span></a></div>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false"
+      aria-controls="mobileNav"><i class="fa-solid fa-bars"></i></button>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <a class="active" href="#home">Home</a><a href="#experiences">Experience</a><a href="#packages">Packages</a><a
+      href="#about">About</a><a href="#contact">Contact</a>
+    <div class="mobile-nav-actions"><button class="theme-toggle" type="button" data-theme-toggle
+        aria-label="Switch to dark mode" aria-pressed="false"></button><a class="whatsapp"
+        href="https://wa.me/916369514948" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Book
+        Now</a></div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="welcome">Welcome to</p>
+        <h1>Munnar Dream Hub</h1>
+        <h2>Discover Munnar. Create Unforgettable Memories.</h2>
+        <p class="hero-description">Explore misty mountains, tea plantations, waterfalls,<br> trekking trails and
+          unforgettable adventures.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#packages"><i class="fa-regular fa-compass"></i> Explore Packages</a>
+          <a class="btn btn-light" href="https://wa.me/916369514948" target="_blank" rel="noopener"><i
+              class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+        </div>
+      </div>
+      <p class="hero-note">Nature<br>Adventure<br>Memories <i class="fa-regular fa-heart"></i></p>
+    </section>
+
+    <section class="section experiences" id="experiences">
+      <div class="section-heading"><i class="fa-solid fa-mountain-sun heading-icon"></i>
+        <div>
+          <h2>Popular <span>Experiences</span></h2>
+          <p>Discover the most loved places and activities in Munnar</p>
+        </div>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-card kolukkumalai-card">
+          <div class="card-content">
+            <h3><i class="fa-solid fa-location-dot"></i> Kolukkumalai</h3>
+            <ul>
+              <li>Sunrise Jeep Safari</li>
+              <li>Tea Plantation</li>
+              <li>Peak Trekking</li>
+              <li>Black Panther Rock View</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience-card trek-card">
+          <div class="card-content">
+            <h3><i class="fa-solid fa-person-hiking"></i>Trekking</h3>
+            <ul>
+              <li>Mountain Trekking</li>
+              <li>Random Hills</li>
+              <li>Scenic Views</li>
+              <li>Neelakurinji Blooming</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience-card camp-card">
+          <div class="card-content">
+            <h3><i class="fa-solid fa-campground"></i> Camping &amp; Stay</h3>
+            <ul>
+              <li>Tent Stay</li>
+              <li>A-Frame Rooms</li>
+              <li>Campfire &amp; Music</li>
+              <li>Swimming Pool</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience-card sightseeing-card">
+          <div class="card-content">
+            <h3><i class="fa-solid fa-camera"></i> Munnar Sightseeing</h3>
+            <ul>
+              <li>Kochin</li>
+              <li>Madupatty</li>
+              <li>Chinnar</li>
+              <li>Thekkady</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="packages section munnar-packages-section" id="packages" aria-labelledby="packages-title">
+      <div class="content-width">
+        <div class="section-heading"><i class="fa-solid fa-seedling heading-icon"></i>
+          <div>
+            <h2 id="packages-title">Explore Our <span>Munnar Packages</span></h2>
+            <p>Discover Kolukkumalai sunrise adventures, mountain treks, sightseeing experiences and premium stays
+              designed for unforgettable Munnar journeys.</p>
+          </div>
+        </div>
+        <div class="mp-filter" aria-label="Filter tour packages">
+          <span class="mp-filter-label"><i class="fa-solid fa-sliders"></i> Find your experience</span>
+          <div class="mp-filter-controls" role="group" aria-label="Package categories">
+            <button class="mp-filter-button is-active" type="button" data-filter="all">All</button>
+            <button class="mp-filter-button" type="button" data-filter="kolukkumalai">Kolukkumalai</button>
+            <button class="mp-filter-button" type="button" data-filter="sightseeing">Munnar Sightseeing</button>
+            <button class="mp-filter-button" type="button" data-filter="trekking">Trekking</button>
+            <button class="mp-filter-button" type="button" data-filter="stay">Stay Packages</button>
+          </div>
+        </div>
+        <div class="mp-package-grid" id="packageGrid" aria-live="polite"></div>
+      </div>
+
+    </section>
+
+    <section class="why" id="about">
+      <div class="content-width why-content">
+        <div class="why-heading">
+          <h2><i class="fa-solid fa-star"></i> Why Munnar Dream Hub?</h2>
+          <p>More than just a trip, it's an experience.</p>
+        </div>
+        <div class="why-grid">
+          <div><i class="fa-regular fa-comments"></i><b>Local Experience</b><small>Authentic &amp; trusted</small></div>
+          <div><i class="fa-solid fa-person-hiking"></i><b>Adventure</b><small>Explore beyond limits</small></div>
+          <div><i class="fa-solid fa-bed"></i><b>Comfortable Stay</b><small>Relax &amp; Rejuvenate</small></div>
+          <div><i class="fa-regular fa-heart"></i><b>Memorable Trips</b><small>Moments for a lifetime</small></div>
+        </div>
+      </div>
+      <p class="why-note">Munnar<br>Awaits You <i class="fa-solid fa-arrow-right-long"></i></p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="content-width contact-grid">
+        <aside class="contact-info">
+          <h2><i class="fa-solid fa-phone"></i> Contact Us</h2>
+          <p class="contact-intro">Plan your Munnar adventure with us!</p>
+          <div class="contact-item"><i class="fa-brands fa-whatsapp"></i>
+            <p><span>WhatsApp</span><strong>63695 14948</strong><small>Chat with us instantly</small></p>
+          </div>
+          <div class="contact-item"><i class="fa-solid fa-phone"></i>
+            <p><span>Enquiry</span><strong>94959 61143</strong><small>Call us for more details</small></p>
+          </div>
+          <div class="contact-item"><i class="fa-solid fa-location-dot"></i>
+            <p><span>Location</span><strong>Munnar, Kerala, India</strong><small>Nature's own paradise</small></p>
+          </div>
+          <a class="contact-whatsapp" href="https://wa.me/916369514948" target="_blank" rel="noopener"><i
+              class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+          <div class="polaroid"><img src="assets/img/background-image.jpeg" alt="Munnar tea hills"><em>Munnar <i
+                class="fa-regular fa-heart"></i></em></div>
+        </aside>
+        <section class="contact-form-box" aria-labelledby="enquiry-title">
+          <div class="form-title"><i class="fa-solid fa-envelope"></i>
+            <div>
+              <h2 id="enquiry-title">Send an Enquiry</h2>
+              <p>Fill in the details and we'll get back to you soon.</p>
+            </div>
+          </div>
+          <form id="contactForm">
+            <div class="form-row"><label>Name <b>*</b><input type="text" name="name" placeholder="Your Name"
+                  required></label><label>Phone Number <b>*</b><input type="tel" name="phone"
+                  placeholder="Your Phone Number" required></label></div>
+            <div class="form-row"><label>Email<input type="email" name="email"
+                  placeholder="Your Email (Optional)"></label><label>Select Package<select name="package">
+                  <option value="">Choose a package</option>
+                  <option>Kolukkumalai Sunrise View</option>
+                  <option>Meesapulimala</option>
+                  <option>Kolukkumalai Room Stay</option>
+                  <option>Kolukkumalai A-Frame Room</option>
+                  <option>Munnar Sightseeing + Kolukkumalai</option>
+                  <option>Chathuranga Parai</option>
+                </select></label></div>
+            <div class="form-row"><label>Travel Date<input type="date" name="date"></label><label>Number of Guests<input
+                  type="number" name="guests" min="1" placeholder="e.g. 2"></label></div>
+            <label class="message-label">Message<textarea name="message" rows="4"
+                placeholder="Tell us about your trip..."></textarea></label>
+            <button class="submit-btn" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Enquiry</button>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="footer-brand" href="#home"><img src="assets/img/logo.png" alt="Munnar Dream Hub"></a>
+    <div class="footer-links"><a href="#home">Home</a><a href="#packages">Packages</a><a
+        href="#experiences">Sightseeing</a><a href="#experiences">Trekking</a><a href="#experiences">Camping</a><a
+        href="#about">About Us</a><a href="#contact">Contact</a></div>
+    <div class="footer-right">
+      <div class="social"><a href="https://www.instagram.com/munnar_dream_hub?stkn=N3Y2enFsaDl0M2hl"
+          aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a
+          href="https://www.facebook.com/share/19Wjp2cpVk/" aria-label="Facebook"><i
+            class="fa-brands fa-facebook-f"></i></a><a href="https://www.threads.net/@munnar_dream_hub"
+          aria-label="Threads"><i class="fa-brands fa-threads"></i></a><a href="https://x.com/munnar_dream_hub"
+          aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></div><small>© 2026 Munnar Dream Hub. All Rights Reserved.</small>
+    </div>
+  </footer>
+  <script src="assets/js/package-data.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
