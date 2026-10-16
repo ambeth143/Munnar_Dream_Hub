@@ -1,5 +1,34 @@
 window.MunnarTourPackages = [
   {
+<<<<<<< HEAD
+=======
+    id: "munnar-3-days-2-nights",
+    slug: "munnar-3-days-2-nights",
+    url: "pages/munnar-3-days-2-nights.html",
+    title: "Munnar 3 Days & 2 Nights",
+    subtitle: "Explore \u2022 Experience \u2022 Enjoy \u2022 Create Memories",
+    category: "Munnar Getaway",
+    categories: ["sightseeing", "trekking", "stay"],
+    featured: true,
+    image: "assets/img/Munnar Package.jpeg",
+    images: ["assets/img/Munnar Package.jpeg", "assets/img/Munnar Package2.jpeg"],
+    imageAlt: "Munnar 3 days and 2 nights tour package itinerary",
+    shortDescription: "A complete 3-day Munnar escape with Phantom Hills trekking, a comfortable stay, campfire, DJ night and scenic sightseeing.",
+    description: "Make lasting Munnar memories across three days and two nights. Start with Phantom Hills trekking and a lively campfire evening, then explore waterfalls, tea gardens, viewpoints and local attractions before a final scenic nature journey.",
+    duration: "3 Days / 2 Nights",
+    location: "Munnar, Kerala",
+    experience: "Stay + Trekking + Sightseeing",
+    bestFor: "Friends, couples & families",
+    cardHighlights: ["Phantom Hills Trekking", "2 Nights Comfortable Stay", "Campfire + DJ Night", "Waterfalls & Tea Gardens", "Munnar View Points"],
+    highlights: ["Phantom Hills Trekking", "Comfortable 2-Night Room Stay", "Campfire Night & DJ Night", "Waterfalls & Tea Garden Views", "Sengulam Dam Boating", "Kerala \u2013 Tamil Nadu Border"],
+    itinerary: [
+      { title: "Day 1 | Adventure Begins", activities: [{ text: "Refresh Room" }, { text: "Phantom Hills Trekking" }, { text: "Comfortable Room Stay" }, { text: "Delicious Dinner" }, { text: "Campfire Night" }, { text: "DJ Night" }] },
+      { title: "Day 2 | Explore Munnar", activities: [{ text: "Periyakanal Waterfalls" }, { text: "Gap Road View Point" }, { text: "Lockhart Tea Garden View Point" }, { text: "Kannan Devan Hills View Point" }, { text: "Sengulam Dam Boating" }, { text: "Dream Land Fun Activities" }, { text: "Hot Air Balloon" }, { text: "Spice Garden Tour" }, { text: "Kallar Waterfalls" }, { text: "Karadippara View Point" }] },
+      { title: "Day 3 | Nature & Scenic Journey", activities: [{ text: "Waterfalls View Point" }, { text: "Periyakanal Tea Factory Outlet" }, { text: "Dam View Point" }, { text: "Orange Plantation" }, { text: "Hanging Bridge" }, { text: "Spice Garden Visit" }, { text: "Kerala \u2013 Tamil Nadu Border" }] }
+    ]
+  },
+  {
+>>>>>>> origin/master
     id: "kolukkumalai-sunrise-view",
     slug: "kolukkumalai-sunrise",
     url: "pages/kolukkumalai-sunrise.html",
