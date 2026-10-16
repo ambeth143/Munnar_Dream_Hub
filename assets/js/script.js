@@ -51,14 +51,9 @@ function renderPackages() {
   if (!packageGrid) return;
   const visiblePackages = activePackageFilter === "all"
     ? [
-<<<<<<< HEAD
-      ...tourPackages.filter((tourPackage) => tourPackage.categories.includes("kolukkumalai")),
-      ...tourPackages.filter((tourPackage) => !tourPackage.categories.includes("kolukkumalai"))
-=======
       ...tourPackages.filter((tourPackage) => tourPackage.featured),
       ...tourPackages.filter((tourPackage) => !tourPackage.featured && tourPackage.categories.includes("kolukkumalai")),
       ...tourPackages.filter((tourPackage) => !tourPackage.featured && !tourPackage.categories.includes("kolukkumalai"))
->>>>>>> origin/master
     ]
     : tourPackages.filter((tourPackage) => tourPackage.categories.includes(activePackageFilter));
   packageGrid.innerHTML = visiblePackages.map(packageCardMarkup).join("");

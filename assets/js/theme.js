@@ -1,11 +1,7 @@
 (function initialiseSiteChrome() {
   const root = document.documentElement;
   const storageKey = "munnar-surprise-theme";
-<<<<<<< HEAD
-  const preferredTheme = window.matchMedia?.("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-=======
   const preferredTheme = "light";
->>>>>>> origin/master
   let savedTheme;
   try { savedTheme = localStorage.getItem(storageKey); } catch (error) { savedTheme = null; }
 

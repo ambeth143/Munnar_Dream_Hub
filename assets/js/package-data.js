@@ -1,7 +1,5 @@
 window.MunnarTourPackages = [
   {
-<<<<<<< HEAD
-=======
     id: "munnar-3-days-2-nights",
     slug: "munnar-3-days-2-nights",
     url: "pages/munnar-3-days-2-nights.html",
@@ -28,7 +26,6 @@ window.MunnarTourPackages = [
     ]
   },
   {
->>>>>>> origin/master
     id: "kolukkumalai-sunrise-view",
     slug: "kolukkumalai-sunrise",
     url: "pages/kolukkumalai-sunrise.html",
